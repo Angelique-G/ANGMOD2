@@ -28,6 +28,8 @@ function v(val){
 
 
 // Example 5
+
+
 var me = {
     name : "Angelique"
 };
@@ -42,15 +44,13 @@ for (i = 0; i < 5; i++){
 }
 
 
-// Example 7
+
 var types = {
     string: "a string",
     number: 42,
     boolean: true,
-    array: [1,2,3,4]
+    array: [1,2,3,4],
 };
-
-
 
 var key;
 
@@ -65,10 +65,9 @@ for(i=0; i< types.array.length; i++){
 }
 
 
-var sum = add(4,8);
 
-function add(x,y) {
-    return x+y;
-}
+
+
+
 
 
